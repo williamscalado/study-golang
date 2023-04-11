@@ -1,0 +1,6 @@
+github.com/bojanz/currency v1.1.1 h1:QT2ralEt+DNKC2g47N9hwE1BvF5givEP7OJ/9SEEcuI=
+github.com/bojanz/currency v1.1.1/go.mod h1:+oIBEvadQQQfUwSdrA36hwLpRIjKPwneSX+WNxpvqz8=
+github.com/cockroachdb/apd/v3 v3.1.2 h1:DDFeYj70f6yWcWlfGNwZ7z6NSpkOZAKsse1VmBtf+zs=
+github.com/cockroachdb/apd/v3 v3.1.2/go.mod h1:klXJcjp+FffLTHlhIG69tezTDvdP065naDsHzKhYSqc=
+golang.org/x/text v0.9.0 h1:2sjJmO8cDvYveuX97RDLsxlyUxLl+GHoLxBiRdHllBE=
+golang.org/x/text v0.9.0/go.mod h1:e1OnstbJyHTd6l/uOt8jFFHp6TRDWZR/bV3emEE/zU8=

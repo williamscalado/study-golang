@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"studygo/calc"
+	"studygo/helpers"
 )
 
 var mock = calc.Coordenadas{
@@ -10,12 +11,14 @@ var mock = calc.Coordenadas{
 	Long: 45454,
 }
 
+var valuesFormat = helpers.PropsMoneyFormat{
+	NumberValue: "32.50",
+	Currency:    "EUR",
+}
+
+var valueMoney = helpers.MoneyFormat(valuesFormat)
+
 func main() {
-	fmt.Println(calc.Sum(10, 10))
-	fmt.Println(calc.Multiply(10, 20))
-	fmt.Println(calc.Sub(10, 20))
-	var result *calc.Coordenadas = &mock
-	fmt.Println(result.Lat)
-	data := calc.MathVariables()
-	fmt.Println(data.Sqrt2)
+
+	fmt.Println(valueMoney)
 }
